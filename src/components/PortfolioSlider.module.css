@@ -1,5 +1,16 @@
 .container{
   width: 100vw;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
   background-color: pink;
   height: calc( 100vh - 50px );
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer{
+  min-width: 5vw;
+  height: 100%;
 }
