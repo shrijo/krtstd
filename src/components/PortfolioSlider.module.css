@@ -1,0 +1,5 @@
+.container{
+  width: 100vw;
+  background-color: pink;
+  height: calc( 100vh - 50px );
+}
