@@ -10,4 +10,4 @@ const PortfolioSlider = () => (
   </div>
 )
 
-export default Header
+export default PortfolioSlider
