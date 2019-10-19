@@ -6,7 +6,7 @@ const Header = () => (
     style={{
       background: `white`,
       height: `50px`,
-      borderBottom: '1p solid #dedede',
+      borderBottom: '1px solid #dedede',
       overflow: 'hidden',
     }}
   >
@@ -14,6 +14,7 @@ const Header = () => (
         style={{
           color: 'black',
           fontSize: '16px',
+          lineHeight: '50px',
         }}
       >
       Karate
