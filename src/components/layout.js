@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <PortfolioSlider />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
