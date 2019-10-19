@@ -4,26 +4,18 @@ import React from "react"
 const Header = () => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `white`,
+      height: `50px`,
+      borderBottom: '1p solid #dedede',
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-        </Link>
+    <div>
+      <h1
+        style={{
+          color: 'black',
+        }}
+      >
+      Karate    
       </h1>
     </div>
   </header>
