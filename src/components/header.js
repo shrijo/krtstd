@@ -7,17 +7,17 @@ const Header = () => (
       background: `white`,
       height: `50px`,
       borderBottom: '1p solid #dedede',
+      overflow: 'hidden',
     }}
   >
-    <div>
       <h1
         style={{
           color: 'black',
+          fontSize: '16px',
         }}
       >
-      Karate    
+      Karate
       </h1>
-    </div>
   </header>
 )
 
