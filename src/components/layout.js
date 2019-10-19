@@ -16,7 +16,7 @@ const Layout = () => {
   return (
     <>
       <PortfolioSlider />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <div
         style={{
           margin: `0 auto`,
