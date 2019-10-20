@@ -5,6 +5,7 @@ const Header = () => (
   <header className={HeaderStyles.navigation}>
     <h1 className={HeaderStyles.logo}>Karate</h1>
   </header>
+  
 )
 
 
