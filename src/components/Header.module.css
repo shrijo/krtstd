@@ -1,8 +1,8 @@
 .navigation{
   background: white;
   height: 50px;
-  border-bottom: 1px solid #dedede;
   overflow: hidden;
+  padding: 0 calc(5vw + 10px);
 }
 
 .logo{

@@ -3,7 +3,7 @@
   width: 90vw;
   scroll-snap-align: center;
   flex-shrink: 0;
-  padding: 10px 10px;
+  padding: 10px 10px 15px 10px;
   display: flex;
   flex-direction: column;
 }
@@ -14,8 +14,7 @@
   padding: 0;
   font-size: 14px;
   line-height: 18px;
-  color: white;
-  background-color: purple;
+  color: #333333;
 }
 
 .projectDescription{
@@ -24,13 +23,12 @@
   padding: 0;
   font-size: 14px;
   line-height: 18px;
-  color: white;
-  background-color: green;
+  color: #888888;
   margin-bottom: 5px;
 }
 
 .projectImage{
   flex-grow: 1;
   width: 100%;
-  background-color: navy;
+  background-color: #333333;
 }

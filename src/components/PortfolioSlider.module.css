@@ -4,10 +4,11 @@
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  background-color: pink;
+  background-color: #fafafa;
   height: calc( 100vh - 50px );
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid #dedede;
 }
 
 .spacer{
