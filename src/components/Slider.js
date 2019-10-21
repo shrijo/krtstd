@@ -8,7 +8,7 @@ const Slider = () => {
   const params = {
     slidesPerView: 'auto',
       centeredSlides: true,
-      spaceBetween: 30,
+      spaceBetween: 10,
   }
 
   return(
