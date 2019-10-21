@@ -8,3 +8,4 @@
 
 import "./src/styles/futter.css"
 import "./src/styles/global.css"
+import 'react-id-swiper/lib/styles/css/swiper.css';

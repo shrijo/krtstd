@@ -18,7 +18,9 @@
     "react": "^16.10.2",
     "react-div-100vh": "^0.3.4",
     "react-dom": "^16.10.2",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-id-swiper": "^2.3.2",
+    "swiper": "^5.1.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
