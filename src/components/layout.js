@@ -11,7 +11,7 @@ import PortfolioSlider from "./PortfolioSlider"
 import Header from "./Header"
 import Studio from "./Studio"
 
-import "./layout.css"
+import LayoutStyles from "./layout.module.css"
 
 class Layout extends React.Component {
 
@@ -36,11 +36,11 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="LayoutStyles.container">
         <PortfolioSlider />
         <Header />
         <Studio />
-      </>
+      </div>
     )
   }
 }
