@@ -36,7 +36,7 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <div className="LayoutStyles.container">
+      <div className={LayoutStyles.container}>
         <PortfolioSlider />
         <Header />
         <Studio />
