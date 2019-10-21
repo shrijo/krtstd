@@ -5,7 +5,7 @@
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   background-color: #fafafa;
-  height: calc( 100rvh - 50px );
+  height: calc( 100vh - 50px );
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #dedede;
