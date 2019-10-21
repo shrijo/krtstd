@@ -16,6 +16,7 @@
     "gatsby-transformer-sharp": "^2.2.23",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
+    "react-div-100vh": "^0.3.4",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1"
   },

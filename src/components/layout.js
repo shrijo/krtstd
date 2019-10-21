@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import Div100vh from 'react-div-100vh'
 
 import PortfolioSlider from "./PortfolioSlider"
 import Header from "./Header"
@@ -15,11 +16,11 @@ import LayoutStyles from "./layout.module.css"
 
 const Layout = () => (
 
-  <div className={LayoutStyles.container}>
+  <Div100vh className={LayoutStyles.container}>
     <PortfolioSlider />
     <Header />
     <Studio />
-  </div>
+  </Div100vh>
 )
 
 export default Layout
